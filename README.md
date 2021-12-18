@@ -21,9 +21,9 @@ curl http://localhost:8080/getF/{id}
 # Update 
 
 ```
-curl -X PUT http://localhost:8080/putC -d "id=&factory_id=&model=&year=&fuel=&doors=&cost=&color"
+curl -X PUT http://localhost:8080/updateC/{id} -d "id=&factory_id=&model=&year=&fuel=&doors=&cost=&color"
 
-curl -X PUT http://localhost:8080/putF -d "id=&name=&country_code="
+curl -X PUT http://localhost:8080/updateF/{id} -d "id=&name=&country_code="
 ```
 # Delete 
 ```
